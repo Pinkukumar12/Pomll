@@ -1,0 +1,21 @@
+{
+  "name": "HitSixLive",
+  "short_name": "HitSix",
+  "description": "Live Cricket Score & Updates on HitSixLive",
+  "start_url": "/?m=1",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#ff5722",
+  "icons": [
+    {
+      "src": "https://hitsixlive.blogspot.com/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://hitsixlive.blogspot.com/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
