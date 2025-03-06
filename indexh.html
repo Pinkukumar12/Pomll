@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janbaaz Group</title>
+  <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .janbaaz_group {
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+    }
+
+    .janbaaz_button {
+      background-color: #0074d9;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .janbaaz_button:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <script>
+        // HTML को let html के अंदर स्टोर किया गया है
+    let html = `
+      <div class="janbaaz_group" id="janbaaz_video"></div>
+
+    
+    `;
+
+    // Body में HTML Inject करना
+    document.body.innerHTML = html;
+
+    // JW Player Setup
+    jwplayer("janbaaz_video").setup({
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfHjx2HaelJowxvVVUpBELpH5k5a5aZQJW_fgj6qEpsDhyIoORZ46BMbuhyfYsyzftUufcAYeQ1KwxaCUZVyr_RhURLJLnf39Ev2SwgWQGfFdjD_R3N7Qga6kdDWeB0V2pUJCz0CsDaO3x-yHOAMYaBhIom4-muujRVemqZ5N2i34hb7djJ0pzz2vemhK/s1792/file-ATaj1ZVMEVQkssv6ezgMYF%20%281%29.webp",
+      width: "100%",
+      aspectratio: "16:9",
+      autostart: false,
+      primary: "html5",
+      preload: "auto",
+      mute: false,
+      file: "http://humsab.xyz/IN_D2HJAYAMOVIE/index.m3u8",
+
+      // Logo जोड़ने के लिए
+      logo: {
+        file: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigU3sJDrk0-oannsvmgRzPb2QkZBIzZSfErfbX-qRMtn3feWGiQ6ZVwYZjkK3xcaXeH1TOTK50A7nFvoMIOncvTiSxBKkehgCq_Uim4NyClMsBVCgR-MFsXzsVvA1CTT3BO6ABG_2LrWtVhMMiInCxB6qjCwLuCZtxdB97dunp0c_QuXGhRnRyoGvC7AKV/s512/file-BnWHxiw4zNbBZqUS8zyyhD%20%281%29.webp",
+        position: "top-right",
+        margin: 10,
+        link: "https://t.me/bhaukaaltech"
+      }
+    });
+  </script>
+</body>
+</html>
